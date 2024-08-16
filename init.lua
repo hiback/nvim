@@ -3,7 +3,8 @@ if vim.g.vscode then
   require("core.vscode")
 else
   -- ordinary Neovim
-  require("core.options")
+  require("core.cli")
 end
+require("core.common")
 require("core.keymaps")
 require("plugin-manager.lazy")
