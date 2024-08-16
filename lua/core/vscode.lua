@@ -162,3 +162,7 @@ vim.keymap.set('', 'j', moveCursor('j'), {
     silent = true
 })
 
+-- undo and redo
+vim.keymap.set("n","u","<Cmd>call VSCodeNotify('undo')<CR>")
+vim.keymap.set("n","<C-r>","<Cmd>call VSCodeNotify('redo')<CR>") 
+
