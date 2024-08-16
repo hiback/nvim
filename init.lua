@@ -7,4 +7,4 @@ else
 end
 require("core.common")
 require("core.keymaps")
-require("plugin-manager.lazy")
+require("core.lazy")
