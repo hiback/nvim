@@ -4,6 +4,6 @@ if vim.g.vscode then
 else
   -- ordinary Neovim
   require("core.options")
-  require("core.keymaps")
 end
+require("core.keymaps")
 require("plugin-manager.lazy")
